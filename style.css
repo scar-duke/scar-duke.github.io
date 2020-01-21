@@ -1,0 +1,36 @@
+h1 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.menu {
+	/*height: 100%; /*remove if I want the bar colour to be fitted to the menu*/
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.menu a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	/*font-size:*/
+	color: #818181;
+	display: block;
+}
+.menu a:hover {
+	color: #f1f1f1;
+}
+
+.content {
+	margin-left: 160px;
+	padding: 0px 10px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+	.menu { padding-top: 15px; }
+	.menu a { font-size: 18px; }
+}
