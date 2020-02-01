@@ -3,7 +3,20 @@ h1 {
 	text-align: center;
 }
 
+img {
+	width: 30%;
+	transform: rotate(90deg);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.bodyDiv {
+	display: inline;
+}
+
 .RAPics {
 	border: 1px solid #C3142D;
+	padding: 5px;
 	text-align: center;
+	width: 30%
 }
