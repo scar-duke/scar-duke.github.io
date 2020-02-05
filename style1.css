@@ -4,19 +4,19 @@ h1 {
 }
 
 img {
-	width: 30%;
-	transform: rotate(90deg);
+	width: 45%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
-.bodyDiv {
+.bodyDiv:after {
 	display: inline;
 }
 
 .RAPics {
+	float: left;
 	border: 1px solid #C3142D;
 	padding: 5px;
 	text-align: center;
-	width: 30%
+	width: 18%;
 }
