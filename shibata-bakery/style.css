@@ -1,0 +1,17 @@
+html {
+	height:100vh;
+}
+
+body {
+	background-color:sandybrown;
+	height:100vh;
+}
+
+form {
+	background-color:khaki;
+}
+
+.container {
+	background-color:white;
+	height:100vh;
+}

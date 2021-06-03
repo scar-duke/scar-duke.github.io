@@ -2,53 +2,66 @@
 <html lang='en'>
         <head>
                 <meta charset='utf-8'/>
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+                <link rel="stylesheet" href="style.css">
                 <title>Shibata Bakery - Contact</title>
         </head>
 
         <body>
                 <div class="container">
                         <h1>Shibata Bakery</h1>
-                        <nav class="navbar navbar-default">
-                                <div class="container-fluid">
-                                        <ul class="nav navbar-nav">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="products.html">Products</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li class="active"><a href="contact.html">Contact</a></li>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav mr-auto">
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="index.html">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="about.html">About</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="products.html">Products</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link active" href="contact.html">Contact</a>
+                                                </li>
                                         </ul>
                                 </div>
                         </nav>
+
+                        <br/>
+
 			<h2>Contact Us</h2>
-			<p>Contact? A form that sends recommendations? Idk.</p>
-			<p>Add an FAQ?</p>
-			<form class="col-sm-5" action="https://formspree.io/xdowrvbn" method="POST">
+			<p>Have a question? Want something specific that that you didn't see last week? send us a message!</p>
+			<div class="row">
+			<div class="col-sm-3"></div>
+			<form class="col-sm-6" action="https://formspree.io/xdowrvbn" method="POST">
 				<div class="form-group">
                                         <label class="col-form-label">Name:</label>
-                                        <input type="text" name="name" class="form-control">
+                                        <input type="text" name="name" class="form-control" value="">
                                 </div>
 				<div class="form-group">
 					<label class="col-form-label">Email:</label>
-					<input type="email" name="email" class="form-control">
+					<input type="email" name="email" class="form-control" value="">
 				</div>
 				<div class="form-group">
 					<label class="col-form-label">What Can We Help You With?</label>
                                         <select name="reason" class="form-control">
 						<option selected>Choose...</option>
 						<option>General Question</option>
-						<option>I want to place an order</option>
-						<option>???</option>
+						<option>I want an order ready for me</option>
+						<option>Do you have...?</option>
 						<option>Other</option>
 					</select>
                                 </div>
 				<div class="form-group">
 					<label class="col-form-label">Message:</label>
-					<textarea name="message" class="form-control"></textarea>
+					<textarea name="message" class="form-control" value=""></textarea>
 				</div>
 
 				<button type="submit" class="btn btn-primary mb-2">Submit</button>
 			</form>
+			</div>
                 </div>
         </body>
 </html>

@@ -2,25 +2,46 @@
 <html lang='en'>
         <head>
                 <meta charset='utf-8'/>
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
                 <title>Shibata Bakery - Products</title>
         </head>
 
         <body>
                 <div class="container">
                         <h1>Shibata Bakery</h1>
-                        <nav class="navbar navbar-default">
-                                <div class="container-fluid">
-                                        <ul class="nav navbar-nav">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li class="active"><a href="products.html">Products</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                </div>
-                        </nav>
-			<p>This might me a page showing products and photos of stuff that I make? I don't know...</p>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+      							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item">
+                                                        <a class="nav-link active" href="products.html">Products</a>
+                                                </li>
+						<li class="nav-item">
+                                                        <a class="nav-link" href="contact.html">Contact</a>
+                                                </li>
+    					</ul>
+				</div>
+			</nav>
+			
+			<br/>
+
+			<div class="row">
+				<div class="col-sm-4">
+				<img src="img/shokupan.jpg" alt="loaf of milk bread" class="rounded img-fluid" style="width:100%;height:auto;padding-left:10px;">
+				</div>
+				<div class="col-sm-4 text-center">
+				<h2>Coming Soon...</h2>
+				</div>
+				<div class="col-sm-4">
+			<img src="img/melon_bread.jpg" alt="a few melon bread rolls" class="rounded img-fluid" style="width:100%;height:auto; padding-right:10px">
+				</div>
+			</div>
                 </div>
         </body>
 </html>
