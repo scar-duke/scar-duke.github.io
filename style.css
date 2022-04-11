@@ -1,6 +1,11 @@
-h1 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h1, p, a { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+
+
+
+
+
 
 .menu {
 	/*height: 100%; /*remove if I want the bar colour to be fitted to the menu*/

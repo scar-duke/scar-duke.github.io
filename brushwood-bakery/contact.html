@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+        <head>
+                <meta charset='utf-8'/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+                <link rel="stylesheet" href="style.css">
+                <title>Shibata Bakery - Contact</title>
+        </head>
+
+        <body>
+                <div class="container">
+                        <h1>Shibata Bakery</h1>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav mr-auto">
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="index.html">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="about.html">About</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link" href="products.html">Products</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link active" href="contact.html">Contact</a>
+                                                </li>
+                                        </ul>
+                                </div>
+                        </nav>
+
+                        <br/>
+
+			<h2>Contact Us</h2>
+			<p>Have a question? Want something specific that that you didn't see last week? Send us a message!</p>
+			<div class="row">
+			<div class="col-sm-3"></div>
+			<form class="col-sm-6" action="https://formspree.io/xdowrvbn" method="POST">
+				<div class="form-group">
+                                        <label class="col-form-label">Name:</label>
+                                        <input type="text" name="name" class="form-control" value="">
+                                </div>
+				<div class="form-group">
+					<label class="col-form-label">Email:</label>
+					<input type="email" name="email" class="form-control" value="">
+				</div>
+				<div class="form-group">
+					<label class="col-form-label">What Can We Help You With?</label>
+                                        <select name="reason" class="form-control">
+						<option selected>Choose...</option>
+						<option>General Question</option>
+						<option>I want an order ready for me</option>
+						<option>Do you have...?</option>
+						<option>Other</option>
+					</select>
+                                </div>
+				<div class="form-group">
+					<label class="col-form-label">Message:</label>
+					<textarea name="message" class="form-control" value=""></textarea>
+				</div>
+
+				<button type="submit" class="btn btn-primary mb-2">Submit</button>
+			</form>
+			</div>
+                </div>
+        </body>
+</html>
+
