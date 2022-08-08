@@ -34,6 +34,7 @@ $(document).ready(function() {
 });
 */
 function submit() {
+	event.preventDefault();
 	var start = document.getElementById("startLoc").split(" ");
 	startLocation = new place("Start", start[0], start[1], "", "");
 	optItinerary(date, startLocation, trailLocations);
